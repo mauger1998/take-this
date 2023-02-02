@@ -1,0 +1,29 @@
+:root {
+    --black: #1C1C1C;
+    --red: #FB5948;
+    --blur: rgba(128,128,128,0.4);
+    --facebook: #4460A0;
+}
+
+*,
+*::before,
+*::after {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'EB Garamond', serif;
+    font-weight:700;
+    color:white;
+}
+
+/********************/
