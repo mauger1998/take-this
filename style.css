@@ -1,0 +1,48 @@
+:root {
+    --black: #1C1C1C;
+    --red: #FB5948;
+    --blur: rgba(128,128,128,0.4);
+    --facebook: #4460A0;
+}
+
+*,
+*::before,
+*::after {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'EB Garamond', serif;
+    font-weight:700;
+    color:white;
+}
+
+p {
+    line-height:1.75;
+}
+
+button {
+    color:white;
+    border:2px solid var(--red);
+    background-color: var(--red);
+    padding:0.5rem 1rem;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+/********************/
+
+body {
+    width:100%;
+    background-color:var(--black);
+    color:white;
+}
