@@ -22,16 +22,24 @@
     <header>
         <div class="header-wrapper">
             <div class="logo-container">
-                <img src="home-svg/Logo.svg" alt="Take This Logo">
+                <a aria-label="Home Logo Link" href="#">
+                    <img src="home-svg/Logo.svg" alt="Take This Logo">
+                </a>
             </div>
             <nav>
                 <ul>
-                    <li>home</li>
-                    <li>about</li>
+                    <a aria-label="Home Link" href="#">
+                        <li>home</li>
+                    </a>
+                    <a href="about-take-this/">
+                        <li>about</li>
+                    </a>
                     <li>music & media</li>
                     <li>testimonials</li>
                 </ul>
-                <button>Contact Us</button>
+                <a href="#contact">
+                    <button>Contact Us</button>
+                </a>
             </nav>
             <div class="dropdown" style="overflow:visible !important" data-dropdown>
                 <img data-dropdown-button src="home-svg/menu.svg" alt="Mobile Menu" class="menu link">
@@ -42,7 +50,7 @@
                         
                     </div>
                     <div class="div">
-                        <div class="dropdown-heading" style="overflow:visible !important"><a href="about/">About</a></div>
+                        <div class="dropdown-heading" style="overflow:visible !important"><a href="about-take-this/">About</a></div>
                         
                     </div>
                     <div class="div">
@@ -59,7 +67,7 @@
     </header>
     <main>
         <div class="hero-wrapper">
-            <h1>Wedding & Corporate</h1>
+            <h1>Wedding & Corporate <br>Music in Jersey</h1>
             <p>You can book Take This for an event in Jersey! We specialise in Wedding & Corporate but we are happy to perform at any event. Our audience always have an amazing time, just ask them!</p>
             <div class="hero-buttons">
                 <button>Listen Now</button>
@@ -119,7 +127,7 @@
                 </div>
                 <div class="card">
                     <img src="home-svg/music-bars-svgrepo-com.svg" alt="Music Waves">
-                    <p class="share">03 / Experience</p>
+                    <p class="share">03 / Experience is Key</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna.</p>
                     <button>See More</button>
                 </div>
@@ -133,5 +141,62 @@
             </div>
         </div>
     </section>
+    <section id="contact" class="contact-section">
+        <div class="contact-wrapper">
+            <div class="big">CONTACT</div>
+            <div class="contact-titles">
+                <p class="share">04 / Contact</p>
+                <h2>Get in touch with us today, we look forward to hearing from you!</h2>
+            </div>
+            <form action="POST">
+                <fieldset>
+                    <label for="name">Name:</label>
+                    <input name="name" id="name" type="text">
+                </fieldset>
+                <fieldset>
+                    <label for="email">Email:</label>
+                    <input name="email" id="email" type="email">
+                </fieldset>
+                <fieldset>
+                    <label for="message">Message:</label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </fieldset>
+                <button>Send Message</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-wrapper">
+            <div class="footer-top">
+                <a href="#">
+                    <img src="home-svg/Logo.svg" alt="Take This Logo">
+                </a>
+                <ul>
+                    <a href="#">
+                        <li>home</li>
+                    </a>
+                    <li>about</li>
+                    <li>music & media</li>
+                    <li>testimonials</li>
+                </ul>
+
+                <div class="social-icons">
+                    <img src="home-svg/Facebook.svg" alt="Facebook Icon">
+                    <img src="home-svg/Instagram.svg" alt="Instagram Icon">
+                    <img src="home-svg/LinkedIn.svg" alt="Linkedin Icon">
+                    <img src="home-svg/Twitter.svg" alt="Twitter Icon">
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <ul>
+                    <li>Privacy Policy</li>
+                    <a rel="author" aria-label="Link to website of the company who designed and built this website" href="https://islandwebdesign.net/">
+                        <li>Designed & Built by Island Web Design</li>
+                    </a>
+                    <li>Terms of Service</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
