@@ -68,6 +68,7 @@ header {
     justify-content: center;
     position:fixed;
     z-index:1;
+    background-color:#1c1c1c89;
 }
 .header-wrapper {
     width:100%;
@@ -672,7 +673,6 @@ main {
     background-image:url(about-png/history.png);
     background-repeat:no-repeat;
     background-size: cover !important;
-    z-index:20;
     position:relative;
 }
 .history-titles {
