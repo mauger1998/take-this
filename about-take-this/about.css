@@ -309,6 +309,9 @@ main {
         flex-direction: column;
         width:100%;
     }
+    .hero-buttons a {
+        width:100%;
+    }
 }
 
 @media (max-width:512px) {
