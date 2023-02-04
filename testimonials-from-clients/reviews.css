@@ -582,6 +582,9 @@ footer li {
         flex-direction: column;
         gap:4rem;
     }
+    .social-icons {
+        margin-right: 0rem; 
+    }
 }
 @media (max-width:700px) {
     .footer-wrapper {
