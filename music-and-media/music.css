@@ -246,7 +246,7 @@ main {
     background-color:#f08c81;
     border-color:#f08c81;
 }
-.hero-buttons button:nth-child(2) {
+.hero-buttons a:nth-child(2)  button{
     background-color:transparent;
 }
 
@@ -358,16 +358,7 @@ main {
 .image-grid img {
     width:100%;
 }
-.image-gallery::before {
-    content:"";
-    background-color:white;
-    color:white;
-    width:50%;
-    height:1px;
-    position:absolute;
-    top:0;
-    left:0;
-}
+
 .image-gallery::after {
     content:"";
     background-color:white;
@@ -525,6 +516,9 @@ footer li {
 }
 .footer-bottom li {
     font-size:0.8rem;
+}
+.social-icons {
+    margin-right:4rem;
 }
 /*****************/
 @media (max-width:1035px) {

@@ -258,7 +258,7 @@ main {
     background-color:#f08c81;
     border-color:#f08c81;
 }
-.hero-buttons button:nth-child(2) {
+.hero-buttons a:nth-child(2)  button{
     background-color:transparent;
 }
 
@@ -551,6 +551,9 @@ footer li {
 }
 .footer-bottom li {
     font-size:0.8rem;
+}
+.social-icons {
+    margin-right:4rem;
 }
 /*****************/
 @media (max-width:1035px) {
