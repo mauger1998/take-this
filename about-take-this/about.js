@@ -21,17 +21,7 @@ let DATASET = "production"
 let Query = encodeURIComponent('*[_type == "aboutHero"]')
 let URL = "https://7mw9871z.api.sanity.io/v2021-10-21/data/query/production?query=*%5B_type%20%3D%3D%20%22aboutHero%22%5D"
 
-fetch(URL)
-    .then((res) => res.json())
-    .then(({ result }) => {
-        let heroHeading = document.querySelector(".hero-wrapper h1")
-        let heroText = document.querySelector(".hero-wrapper p")
 
-        result.forEach((result, index) => {
-            heroHeading.textContent = result.heading
-            heroText.textContent = result.text
-        })
-    })
 
 
 
