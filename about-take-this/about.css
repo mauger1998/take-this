@@ -666,6 +666,9 @@ main {
     display:flex;
     align-items: center;
     justify-content: center;
+    background-image:url(about-png/history.png);
+    background-repeat:no-repeat;
+    background-size: cover !important;
 }
 .history-wrapper {
     width:100%;
@@ -676,9 +679,7 @@ main {
     justify-content: center;
     flex-direction: column;
     gap:6rem;
-    background-image:url(about-png/history.png);
-    background-repeat:no-repeat;
-    background-size: cover !important;
+    
     position:relative;
 }
 .history-titles {

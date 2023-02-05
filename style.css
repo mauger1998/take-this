@@ -407,8 +407,9 @@ main {
     background-image:url(home-png/IMG_9064.png);
     background-repeat:no-repeat;
     background-size:cover;
-    position:relative;
     z-index:-1;
+    overflow:hidden;
+
 }
 .banner-wrapper {
     width:100%;
@@ -417,8 +418,10 @@ main {
     align-items: center;
     padding:6rem;
     padding-block:12rem;
-    padding-bottom:26rem;
-    
+    padding-bottom:22rem;
+    position:relative;
+    overflow:hidden;
+   
 }
 .banner-wrapper p {
     width:50%;
@@ -433,6 +436,7 @@ main {
     bottom:-10%;
     right:-2%;
     width:max-content !important;
+    overflow:hidden !important;
 }
 .banner-wrapper::after {
     content:"";
@@ -443,6 +447,7 @@ main {
     position:absolute;
     bottom:0;
     right:0;
+    
 }
 @media (max-width:879px) {
     .banner-section {
