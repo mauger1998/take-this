@@ -659,7 +659,7 @@ main {
         background-position:-10rem;
     }
 }
-@media(max-width:872px) {
+@media(max-width:954px) {
     .why-titles {
         flex-direction:column-reverse;
         align-items: flex-start;
@@ -767,7 +767,7 @@ textarea:focus {
      width:100%;
     }
 }
-@media (max-width:988px) {
+@media (max-width:954px) {
     .contact-titles {
        flex-direction: column;
        align-items: flex-start;

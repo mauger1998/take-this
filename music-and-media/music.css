@@ -378,7 +378,7 @@ main {
         grid-template-columns: 1fr 1fr;
     }
 }
-@media (max-width:1107px) {
+@media (max-width:954px) {
     .image-titles {
         flex-direction: column-reverse;
         align-items: flex-start;
@@ -445,7 +445,7 @@ main {
     left:0;
 }
 /*********************/
-@media (max-width:1107px) {
+@media (max-width:954px) {
     .video-titles {
         flex-direction: column;
         align-items: flex-start;
