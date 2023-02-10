@@ -91,6 +91,9 @@ nav {
     display:none;
     cursor:pointer;
 }
+header img {
+    width:150px;
+}
 /***********************/
 .dropdown {
     position:relative !important;
@@ -226,7 +229,7 @@ main {
     justify-content: flex-start;
     gap:2rem;
     margin-top:1rem;
-    width:100%;
+    width:45%;
 }
 .hero-buttons button {
     padding-inline:3.5rem;
@@ -237,6 +240,7 @@ main {
     background-color:#f08c81;
     border-color:#f08c81;
 }
+
 .hero-buttons a:nth-child(2)  button{
     background-color:transparent;
 }

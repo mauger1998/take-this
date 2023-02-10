@@ -99,6 +99,9 @@ nav {
     display:none;
     cursor:pointer;
 }
+header img {
+    width:150px;
+}
 /***********************/
 .dropdown {
     position:relative !important;

@@ -99,6 +99,9 @@ nav {
     display:none;
     cursor:pointer;
 }
+header img {
+    width:150px;
+}
 /***********************/
 .dropdown {
     position:relative !important;
@@ -670,7 +673,6 @@ main {
     place-content: center;
     text-align:center;
     backdrop-filter:blur(5px);
-    margin-right:-1rem;
     width:100%;
 
    
@@ -685,7 +687,6 @@ main {
     margin-top:-4rem;
     place-self:center;
     width:100%;
-    margin-right:-2rem !important;
 
 
 }
@@ -710,7 +711,6 @@ main {
 /*************/
 @media (max-width:1237px) {
     .history-grid-item {
-        margin-right:-1rem;
     }
     .history-grid-item:nth-child(5) {
         grid-column:2;
@@ -726,8 +726,7 @@ main {
     }
     .history-grid-item:nth-child(4) {
         
-        margin-right:-2rem !important;
-    
+2    
     
     }
 }
