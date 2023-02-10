@@ -631,6 +631,7 @@ main {
     display:flex;
     flex-direction: column;
     align-items: flex-start;
+    justify-content: space-between;
     gap:1rem;
     border-radius:0.5rem;
     backdrop-filter:blur(5px);
