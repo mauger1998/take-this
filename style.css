@@ -635,6 +635,7 @@ main {
     gap:1rem;
     border-radius:0.5rem;
     backdrop-filter:blur(5px);
+
 }
 .why-cards img {
     width:30px;
@@ -653,6 +654,10 @@ main {
     position:absolute;
     bottom:0;
     right:0;
+}
+.card p {
+    font-family: 'Roboto', sans-serif !important;
+
 }
 /***************/
 @media(max-width:1149px) {
