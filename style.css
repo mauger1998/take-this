@@ -342,6 +342,7 @@ main {
 }
 .introduction-wrapper p {
     width:50%;
+    font-weight:300 !important;
 }
 .share {
     font-family: 'Share Tech', sans-serif;
