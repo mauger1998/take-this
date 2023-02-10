@@ -710,8 +710,7 @@ main {
 }
 /*************/
 @media (max-width:1237px) {
-    .history-grid-item {
-    }
+   
     .history-grid-item:nth-child(5) {
         grid-column:2;
         margin-top:-2rem;
@@ -724,11 +723,7 @@ main {
         place-self:center;
     
     }
-    .history-grid-item:nth-child(4) {
-        
-2    
     
-    }
 }
 @media (max-width:1113px) {
     .history-grid {
