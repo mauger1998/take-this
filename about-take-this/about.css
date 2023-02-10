@@ -670,7 +670,9 @@ main {
     place-content: center;
     text-align:center;
     backdrop-filter:blur(5px);
-    margin-right:-2rem;
+    margin-right:-1rem;
+    width:100%;
+
    
 
 }
@@ -682,12 +684,17 @@ main {
     grid-column:2;
     margin-top:-4rem;
     place-self:center;
+    width:100%;
+    margin-right:-2rem !important;
+
 
 }
 .history-grid-item:nth-child(6) {
     grid-column:3;
     margin-top:-4rem;
     place-self:center;
+    width:100%;
+
 
 }
 .history-wrapper::after {
@@ -715,6 +722,12 @@ main {
         grid-column:3;
         margin-top:-2rem;
         place-self:center;
+    
+    }
+    .history-grid-item:nth-child(4) {
+        
+        margin-right:-2rem !important;
+    
     
     }
 }

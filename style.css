@@ -59,6 +59,8 @@ header {
     justify-content: center;
     position:fixed;
     z-index:1;
+    background-color:#1c1c1c89;
+
 }
 .header-wrapper {
     width:100%;
@@ -633,6 +635,8 @@ main {
 }
 .why-cards p.share {
     font-size:1.5rem;
+    line-height:1.25;
+
 }
 .why-wrapper::after {
     content:"";

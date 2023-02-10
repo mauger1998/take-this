@@ -50,6 +50,4 @@ fetch(URLTWO)
         })
     })
 
-let QueryThree = encodeURIComponent('*[_type == "review-hero-text"]')
-let URLTHREE = "https://7mw9871z.api.sanity.io/v2021-10-21/data/query/production?query=*%5B_type%20%3D%3D%20%22review-hero-text%22%5D"
 
