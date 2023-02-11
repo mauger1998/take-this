@@ -198,8 +198,6 @@ main {
     display:flex;
     align-items: center;
     justify-content: center;
-    background-image:url(home-png/hero.png);
-    background-image:url(af7d788d-46ca-411a-a80f-ad7f4392308b.MP4);
     background-repeat:no-repeat;
     background-size: cover;
     z-index:20;
@@ -248,13 +246,17 @@ main {
 /***********************/
 .hero-wrapper {
     position:relative;
+   
+}
+.hero-wrapper > * {
+    z-index:10;
 }
 .absolutely {
     position:absolute;
     top:50%;
     left:50%;
     transform:translate(-50%, -50%);
-    z-index:-1;
+    z-index:0;
     height:46rem;
     width:90rem;
     display:flex;
@@ -272,7 +274,9 @@ video {
     inset:0;
     position:absolute;
     background-image:linear-gradient(to right, rgb(6, 6, 6), rgba(2, 2, 2, 0) 200%);
+    /* background-image:-webkit-linear-gradient(to right, rgb(6, 6, 6), rgba(2, 2, 2, 0) 200%) !important; */
     /* pointer-events:none; */
+   
 }
 
 
