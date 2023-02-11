@@ -1,5 +1,5 @@
 :root {
-    --black: #1C1C1C;
+    --black: #151515;
     --red: #FB5948;
     --blur: rgba(128,128,128,0.4);
     --facebook: #4460A0;
@@ -68,7 +68,9 @@ header {
     justify-content: center;
     position:fixed;
     z-index:1;
-    background-color:#1c1c1c89;
+    background-color:#15151589;
+    backdrop-filter: blur(10px);
+
 }
 .header-wrapper {
     width:100%;
@@ -207,7 +209,7 @@ main {
     display:flex;
     align-items: center;
     justify-content: center;
-    background-image:url(about-png/hero.png);
+    background-image:linear-gradient(to top, #151515, rgba(2, 2, 2, 0) 50%), linear-gradient(to right, #151515, rgba(2, 2, 2, 0) 50%),  url(../home-png-none/keys.png);
     background-repeat:no-repeat;
     background-size: cover;
     z-index:20;
@@ -635,7 +637,7 @@ main {
     display:flex;
     align-items: center;
     justify-content: center;
-    background-image:url(about-png/history.png);
+    background-image:linear-gradient(to top, #151515, rgba(2, 2, 2, 0) 50%), linear-gradient(to bottom, #151515, rgba(2, 2, 2, 0) 50%),  url(../home-png-none/history.png);
     background-repeat:no-repeat;
     background-size: cover !important;
 }
@@ -922,4 +924,22 @@ footer li {
     .footer-wrapper {
         padding-inline:1rem;
     }
+}
+/*****************/
+.social-banner-wrapper {
+    width:100%;
+    max-width:1440px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding-block:.5rem;
+    gap:4rem;
+    background-color:rgb(47, 47, 47);
+    margin-top:-0.75rem;
+}
+.social-banner-wrapper img {
+    width:40px;
+}
+.social-banner-wrapper img:nth-child(2) {
+    width:32px;
 }

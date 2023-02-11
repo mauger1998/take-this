@@ -1,5 +1,5 @@
 :root {
-    --black: #1C1C1C;
+    --black: #151515;
     --red: #FB5948;
     --blur: rgba(128,128,128,0.4);
     --facebook: #4460A0;
@@ -128,7 +128,8 @@ header {
     align-items: center;
     justify-content: center;
     z-index:1;
-    background-color:#1c1c1c89;
+    background-color:#15151589;
+    backdrop-filter: blur(10px);
 
 }
 .header-wrapper {

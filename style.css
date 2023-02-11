@@ -1,5 +1,5 @@
 :root {
-    --black: #1C1C1C;
+    --black: #151515;
     --red: #FB5948;
     --blur: rgba(128,128,128,0.4);
     --facebook: #4460A0;
@@ -21,8 +21,8 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'EB Garamond', serif;
-    font-weight:700;
+    font-family: 'Roboto', serif;
+    font-weight:700 !important;
     color:white;
 }
 
@@ -59,8 +59,8 @@ header {
     justify-content: center;
     position:fixed;
     z-index:1;
-    background-color:#1c1c1c89;
-
+    background-color:#15151589;
+    backdrop-filter: blur(10px);
 }
 .header-wrapper {
     width:100%;
@@ -273,9 +273,8 @@ video {
     height:100.5%;
     inset:0;
     position:absolute;
-    background-image:linear-gradient(to right, rgb(6, 6, 6), rgba(2, 2, 2, 0) 200%);
-    /* background-image:-webkit-linear-gradient(to right, rgb(6, 6, 6), rgba(2, 2, 2, 0) 200%) !important; */
-    /* pointer-events:none; */
+    background-image:linear-gradient(to right, var(--black), rgba(2, 2, 2, 0) 85%);
+   
    
 }
 
@@ -461,7 +460,9 @@ video {
     display:flex;
     align-items: center;
     justify-content: center;
-    background-image:url(home-png/IMG_9064.png);
+    background-image:linear-gradient(to right, #151515, rgba(2, 2, 2, 0) 50%),linear-gradient(to top, #151515, rgba(2, 2, 2, 0) 50%), linear-gradient(to bottom, #151515, rgba(2, 2, 2, 0) 50%),  url(home-png-none/IMG_9064.png);
+    /* background-image:linear-gradient(to right, rgb(6, 6, 6), rgba(2, 2, 2, 0) 200%); */
+
     background-repeat:no-repeat;
     background-size:cover;
     z-index:-1;
@@ -507,14 +508,10 @@ video {
     
 }
 @media (max-width:879px) {
-    .banner-section {
-        background-position:-10rem;
-    }
+    
 }
 @media (max-width:771px) {
-    .banner-section {
-        background-position:-25rem;
-    }
+   
     .banner-wrapper p {
         width:75%;
     }
@@ -529,12 +526,7 @@ video {
         padding-inline:2rem;
     }
 }
-@media (max-width:471px) {
-    .banner-section {
-        background-position:-35rem;
 
-    }
-}
 @media (max-width:393px) {
     .banner-wrapper p {
         width:100%;
@@ -570,6 +562,8 @@ video {
 .news-titles h2 {
     font-size:2.25rem;
     align-self:flex-end;
+    width:60%;
+    
 }
 .grid-item img {
     width:100%;
@@ -629,6 +623,11 @@ video {
         padding-inline:4rem;
     }
 }
+@media (max-width:623px) {
+    .news-wrapper h2 {
+        width:100%;
+    }
+}
 @media (max-width:500px) {
     .news-wrapper {
         padding-inline:2rem;
@@ -645,7 +644,7 @@ video {
     display:flex;
     align-items: center;
     justify-content: center;
-    background-image: url(home-png/redo-of-takethis.png);
+    background-image:linear-gradient(to top, #151515, rgba(2, 2, 2, 0) 50%), linear-gradient(to bottom, #151515, rgba(2, 2, 2, 0) 50%),  url(home-png-none/zoltan-singing.png);
     background-repeat:no-repeat;
     background-size:cover;
     position:relative;
@@ -668,6 +667,7 @@ video {
 }
 .why-titles h2 {
     font-size:2.5rem;
+    width:50%;
 }
 .why-cards {
     display:grid;
@@ -694,6 +694,7 @@ video {
 .why-cards p.share {
     font-size:1.5rem;
     line-height:1.25;
+    font-weight:700;
 
 }
 .why-wrapper::after {
@@ -720,27 +721,27 @@ video {
         font-size:2rem;
     }
 }
-@media(max-width:986px) {
-    .why-section {
-        background-position:-10rem;
-    }
-}
+
 @media(max-width:954px) {
     .why-titles {
         flex-direction:column-reverse;
         align-items: flex-start;
         gap:1rem;
     }
+   
 }
-@media(max-width:823px) {
-    .why-section {
-        background-position:-20rem;
+@media(max-width:900px) {
+    .why-titles h2 {
+        width:100%;
     }
+    
 }
+
 @media(max-width:810px) {
     .why-cards {
         grid-template-columns:1fr;
     }
+    
 }
 @media(max-width:700px) {
     .why-wrapper {
@@ -941,4 +942,22 @@ footer li {
     .footer-wrapper {
         padding-inline:1rem;
     }
+}
+/*****************/
+.social-banner-wrapper {
+    width:100%;
+    max-width:1440px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding-block:.5rem;
+    gap:4rem;
+    background-color:rgb(47, 47, 47);
+    margin-top:-0.75rem;
+}
+.social-banner-wrapper img {
+    width:40px;
+}
+.social-banner-wrapper img:nth-child(2) {
+    width:32px;
 }
