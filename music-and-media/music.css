@@ -589,6 +589,6 @@ footer li {
 .social-banner-wrapper img {
     width:40px;
 }
-.social-banner-wrapper img:nth-child(2) {
-    width:32px;
+.social-banner-wrapper a:nth-of-type(2) img {
+    width:32px !important;
 }
