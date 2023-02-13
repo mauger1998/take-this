@@ -32,9 +32,37 @@ let URLTWO = "https://7mw9871z.api.sanity.io/v2021-10-21/data/query/production?q
     fetch(URLTWO)
         .then((res) => res.json())
         .then(({ result }) => {
-            let imageGridImages = document.querySelectorAll(".image-grid img")
+            let imageGridImages = document.querySelectorAll(".swiper-wrapper img")
     
             result.forEach((result, index) => {
                 imageGridImages[index].src = result.imageUrl
             })
         })
+
+
+
+        const swiper = new Swiper('.swiper', {
+            // Optional parameters
+            direction: 'horizontal',
+            loop: true,
+            speed:400,
+            autoHeight:true,
+            autoplay:true,
+            spaceBetween: 400,
+          
+            // If we need pagination
+            pagination: {
+              el: '.swiper-pagination',
+            },
+          
+            // Navigation arrows
+            navigation: {
+              nextEl: '.swiper-button-next',
+              prevEl: '.swiper-button-prev',
+            },
+          
+            // And if we need scrollbar
+            scrollbar: {
+              el: '.swiper-scrollbar',
+            },
+          });
