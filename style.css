@@ -829,6 +829,7 @@ textarea:focus {
     align-items: center;
     justify-content: center;
     gap:0.5rem;
+    
 }
 
 /*****************/
@@ -956,7 +957,9 @@ footer li {
     padding-block:.5rem;
     gap:4rem;
     background-color:rgb(47, 47, 47);
-    margin-top:-0.75rem;
+    margin-top:2rem;
+    z-index:10 !important;
+    position:relative !important;
 }
 .social-banner-wrapper img {
     width:40px;
