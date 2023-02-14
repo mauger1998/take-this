@@ -48,7 +48,7 @@ let URLTWO = "https://7mw9871z.api.sanity.io/v2021-10-21/data/query/production?q
             speed:400,
             autoHeight:true,
             autoplay:true,
-            spaceBetween: 400,
+            spaceBetween: 100,
           
             // If we need pagination
             pagination: {
