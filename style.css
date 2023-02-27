@@ -918,6 +918,15 @@ footer li {
 .social-icons {
     margin-right:4rem;
 }
+.footer-bottom a {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footer-bottom img {
+    width:150px;
+}
 /*****************/
 @media (max-width:1035px) {
     .footer-top,
