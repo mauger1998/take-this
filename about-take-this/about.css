@@ -946,7 +946,8 @@ footer li {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap:1rem;
 }
 .footer-bottom img {
-    width:150px;
+    width:100px;
 }
