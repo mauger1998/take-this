@@ -394,7 +394,7 @@ main {
     -webkit-backdrop-filter: blur(10px);
     display:flex;
     flex-direction: column;
-    gap:2rem;
+    gap:2.01rem;
     justify-content: space-between;
     align-items: flex-start;
 
