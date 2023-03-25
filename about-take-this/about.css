@@ -69,6 +69,8 @@ header {
     z-index:10000000;
     background-color:#15151589;
     backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+
 
 }
 .header-wrapper {
@@ -673,6 +675,8 @@ main {
     place-content: center;
     text-align:center;
     backdrop-filter:blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+
     width:100%;
 
    

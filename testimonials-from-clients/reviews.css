@@ -391,6 +391,7 @@ main {
     padding:2rem;
     border-radius:1rem;
     backdrop-filter:blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     display:flex;
     flex-direction: column;
     gap:2rem;

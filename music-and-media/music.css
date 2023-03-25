@@ -69,6 +69,8 @@ header {
     z-index:1000000;
     background-color:#15151589;
     backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+
 
 }
 .header-wrapper {
